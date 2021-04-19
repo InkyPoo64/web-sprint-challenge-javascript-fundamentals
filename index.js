@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-//
+//This closure lets nested functions reach outside to the parent and brings objects into the child
 
 
 
@@ -28,13 +28,12 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
-  let count = 0;
-  for (let i = number; i > 0; i-- ){
-    count += i;
+function summation(number) {
+  var total = 0;
+  for(var i = 1; i <= number; i++){
+    total += i;
   }
-  return count;
+return total;
   }
  
 
